@@ -1,0 +1,32 @@
+<h2>IP maintainance details</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="table-responsive">
+				<button modalComponent="add" class="add" type="button" (click)="addWebsite()">ADD</button>
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Website Name</th>
+							<th>IP Address</th>
+							<th>URL</th>
+							<th>options</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let row of ipDetails">
+							<td>{{row.websitename}}</td>
+							<td>{{row.ipaddress}}</td>
+							<td>{{row.url}}</td>
+							<td>
+								<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+								<i class="fa fa-info-circle" aria-hidden="true"></i>
+								<i class="fa fa-trash-o" aria-hidden="true" (click)="deleteRow(index)"></i>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!--end of .table-responsive-->
+		</div>
+	</div>
+</div>

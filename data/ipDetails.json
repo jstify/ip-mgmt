@@ -1,0 +1,46 @@
+[
+	{
+		"websitename": "nestor",
+		"subtitle": "nestor assets",
+		"url": "nestor-dev.divami.com",
+		"ipaddress": "183.82.1.242",
+		"description": "Lorem ipsum dolor sit amet, nam an porro causae fierent, sed id suavitate mnesarchum intellegam",
+		"accessmembers":[{
+			"username": "hemalatha",
+			"password": "hemalatha"
+		},{
+			"username": "manasa",
+			"password": "manasa"
+		}]
+	},{
+		"websitename": "nestor",
+		"subtitle": "nestor finance",
+		"url": "nestor2-dev.divami.com",
+		"ipaddress": "183.82.1.242",
+		"description": "Lorem ipsum dolor sit amet, nam an porro causae fierent, sed id suavitate mnesarchum intellegam",
+		"accessmembers":[{
+			"username": "manasa",
+			"password": "manasa"
+		}]
+	},{
+		"websitename": "Quantum",
+		"subtitle": "Quantum",
+		"url": "quantum.divami.com",
+		"ipaddress": "183.82.1.242",
+		"description": "Lorem ipsum dolor sit amet, nam an porro causae fierent, sed id suavitate mnesarchum intellegam",
+		"accessmembers":[{
+			"username": "hemalatha",
+			"password": "hemalatha"
+		}]
+	},{
+		"websitename": "kenso",
+		"subtitle": "kenso",
+		"url": "kenso.divami.com",
+		"ipaddress": "183.82.1.242",
+		"description": "Lorem ipsum dolor sit amet, nam an porro causae fierent, sed id suavitate mnesarchum intellegam",
+		"accessmembers":[{
+			"username": "manasa",
+			"password": "manasa"
+		}]
+	}
+]
